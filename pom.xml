@@ -133,10 +133,10 @@
                             <downloadedZipFileDirectory>${project.basedir}/src/test/resources/selenium_standalone_zips</downloadedZipFileDirectory>
                             <customRepositoryMap>${project.basedir}/src/test/resources/RepositoryMap.xml</customRepositoryMap>
                             <overwriteFilesThatExist>${overwrite.binaries}</overwriteFilesThatExist>
-                            <onlyGetDriversForHostOperatingSystem>false</onlyGetDriversForHostOperatingSystem>
+                            <onlyGetDriversForHostOperatingSystem>true</onlyGetDriversForHostOperatingSystem>
                             <operatingSystems>
                                 <windows>true</windows>
-                                <linux>true</linux>
+                                <linux>false</linux>
                                 <mac>true</mac>
                             </operatingSystems>
                         </configuration>
