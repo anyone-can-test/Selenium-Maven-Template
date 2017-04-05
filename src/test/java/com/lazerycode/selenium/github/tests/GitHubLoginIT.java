@@ -1,10 +1,11 @@
 package com.lazerycode.selenium.github.tests;
 
 
-import static org.testng.Assert.assertFalse;
-import static org.testng.Assert.assertTrue;
 
-import org.testng.annotations.Test;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
 
 import com.lazerycode.selenium.DriverBase;
 import com.lazerycode.selenium.github.pageobjects.GitHubHomePage;
