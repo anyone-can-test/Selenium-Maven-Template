@@ -12,7 +12,7 @@ import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class GoogleExampleIT extends DriverBase {
+public class GoogleExampleTest extends DriverBase {
 
     @Test
     public void googleCheeseExample() throws Exception {

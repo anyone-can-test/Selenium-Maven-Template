@@ -12,7 +12,7 @@ import com.lazerycode.selenium.github.pageobjects.GitHubHomePage;
 import com.lazerycode.selenium.github.pageobjects.GitHubLoginPage;
 
 
-public class GitHubLoginIT extends DriverBase {
+public class GitHubLoginTest extends DriverBase {
 
 	@Test
 	public void should_not_login_with_wrong_credentials() throws Exception {
