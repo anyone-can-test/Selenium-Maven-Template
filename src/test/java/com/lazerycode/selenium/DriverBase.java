@@ -14,16 +14,20 @@ public class DriverBase {
 	@ClassRule
 	public static ExternalResource resource = new ExternalResource() {
 	
-		
+		boolean bInit = false;
 		@Override
 		protected void before() throws Throwable {
+			if(bInit == true) {
+				return;
+			}
+			bInit = true;
 			System.out.println("external resource");
 			driverFactory = new DriverFactory();
 		}
 			
 		@Override
 		protected void after() {
-			driverFactory.quitDriver();
+			//driverFactory.quitDriver();
 			
 		}
     };
@@ -31,9 +35,13 @@ public class DriverBase {
     public static WebDriver getDriver() throws Exception {
         return driverFactory.getDriver();
     }
+  
+    public static void quitDriver() {
+		driverFactory.quitDriver();
+    }
 
     @After
     public void clearCookies() throws Exception {
-        getDriver().manage().deleteAllCookies();
+        //getDriver().manage().deleteAllCookies();
     }
 }
