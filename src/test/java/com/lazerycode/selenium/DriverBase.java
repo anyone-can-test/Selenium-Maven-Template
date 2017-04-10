@@ -7,6 +7,10 @@ import org.junit.ClassRule;
 import org.junit.rules.ExternalResource;
 import org.openqa.selenium.WebDriver;
 
+/**
+ * test base 클래스
+ *
+ */
 public class DriverBase {
 
     private static DriverFactory driverFactory;
@@ -21,6 +25,8 @@ public class DriverBase {
 				return;
 			}
 			bInit = true;
+			
+			// 최초 한번만 수행하는 동작들 (예, 로그인)
 			System.out.println("external resource");
 			driverFactory = new DriverFactory();
 		}
