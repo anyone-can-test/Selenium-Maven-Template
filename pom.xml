@@ -111,6 +111,12 @@
   <version>1.1</version>
 </dependency>
         
+		<!-- http://mvnrepository.com/artifact/org.easytesting/fest-assert-core -->
+		<dependency>
+			<groupId>org.easytesting</groupId>
+			<artifactId>fest-assert-core</artifactId>
+			<version>2.0M10</version>
+		</dependency>
     </dependencies>
 <build>
 	<plugins>
