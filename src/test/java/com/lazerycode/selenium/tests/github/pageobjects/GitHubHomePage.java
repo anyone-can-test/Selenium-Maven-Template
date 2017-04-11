@@ -1,4 +1,4 @@
-package com.lazerycode.selenium.github.pageobjects;
+package com.lazerycode.selenium.tests.github.pageobjects;
 
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;

@@ -1,4 +1,4 @@
-package com.lazerycode.selenium.github.tests;
+package com.lazerycode.selenium.tests.github.tests;
 
 
 
@@ -8,8 +8,8 @@ import static org.junit.Assert.*;
 import org.junit.Test;
 
 import com.lazerycode.selenium.DriverBase;
-import com.lazerycode.selenium.github.pageobjects.GitHubHomePage;
-import com.lazerycode.selenium.github.pageobjects.GitHubLoginPage;
+import com.lazerycode.selenium.tests.github.pageobjects.GitHubHomePage;
+import com.lazerycode.selenium.tests.github.pageobjects.GitHubLoginPage;
 
 
 public class GitHubLoginTest extends DriverBase {

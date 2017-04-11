@@ -21,7 +21,8 @@ public class ExecutionListener extends RunListener {
 	public void testRunFinished(Result result) throws java.lang.Exception
 	{
 		System.out.println("Number of testcases executed : " + result.getRunCount());
-		
+	
+		// 모든 테스트 종료 후 driver close 한다.
 		DriverBase.quitDriver();
 	}
 

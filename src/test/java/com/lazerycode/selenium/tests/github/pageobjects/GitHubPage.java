@@ -1,4 +1,4 @@
-package com.lazerycode.selenium.github.pageobjects;
+package com.lazerycode.selenium.tests.github.pageobjects;
 
 
 import java.util.concurrent.TimeUnit;
